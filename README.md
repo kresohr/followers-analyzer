@@ -1,39 +1,36 @@
-# follower-analyzer
+# Follower Analyzer
 
-This template should help get you started developing with Vue 3 in Vite.
+## What is Follower Analyzer?
 
-## Recommended IDE Setup
+It is a simple tool that you run locally to check which users are **NOT** following you back on Instagram.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## How it works?
 
-## Type Support for `.vue` Imports in TS
+Follow these steps:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Open the Instagram application
+- Go to your profile
+- Press on the "three lines" in the upper right corner
+- Select 'Accounts Center'
+- Select 'Your information and permission' in the Account Settings section
+- Select 'Download your information'
+- Select 'Download or transfer information'
+- Select "Some of your information"
+- Scroll down and select only "Followers and following" checkbox.
+- Select 'Next'
+- Select either 'Download to device' or 'Transfer to destination'
+- For the date range, select 'All time'
+- For the format, select 'JSON'
+- Select 'Next'
 
-## Customize configuration
+Your files will become available on that screen within 24 hours, come back and you'll see a "download" button. Once you download the files, transfer them to the device you'll be uploading from. This file will be uploaded to the project you are going to run and it will show you a list of profiles which are not following you back.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Running the project
 
-## Project Setup
+To be updated.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
+[Example Link](https://google.com)
 
 ```sh
-npm run lint
+Example code
 ```
