@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.2.5",
+    "express": "^4.21.2",
     "jszip": "^3.10.1",
     "pinia": "^2.2.6",
     "primevue": "^4.2.5",
