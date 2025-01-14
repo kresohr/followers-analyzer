@@ -27,10 +27,58 @@ Your files will become available on that screen within 24 hours, come back and y
 
 ## Running the project
 
-To be updated.
+There are two ways we can run this project locally. The first way is running it through terminal after installing all the requirements. The second way is by using docker image.
 
-[Example Link](https://google.com)
+### Run via Terminal
 
-```sh
-Example code
+First, make sure you clone the project from this repository.
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/download) (At least version 18)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/) (or any IDE of your choice)
+
+Run this in terminal where you want to clone the project
+
 ```
+git clone https://github.com/kresohr/followers-analyzer.git
+```
+
+After the project has been cloned, we need to install all the npm packages that are needed for the project. We can do that by running the following npm command in root.
+
+```
+npm install
+```
+
+Then, to start the actual project we can use the following command:
+
+```
+npm run dev
+```
+
+### Run via Docker
+
+To run the project using Docker, ensure that Docker Desktop is installed and running on your machine. Then, follow these steps:
+
+1. Open your terminal.
+2. Navigate to the directory where you cloned the repository.
+3. Make sure you are in the projects root folder
+4. Build the Docker image with the following command:
+
+   ```
+   docker compose build --no-cache
+   ```
+
+5. Run the Docker container:
+
+   ```
+   docker compose up
+   ```
+
+6. The application is running and you can access it on the following link
+
+   ```
+   http://localhost:3000/
+   ```
