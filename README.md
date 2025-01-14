@@ -2,7 +2,7 @@
 
 ## What is Follower Analyzer?
 
-It is a simple tool that you run locally to check which users are **NOT** following you back on Instagram.
+Follower Analyzer is self-hosted tool that you run locally to check which users are **NOT** following you back on Instagram.
 
 ## How it works?
 
